@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -x
 docker run -d -p 80:80 --name my-apache-php-app -v https://github.com/jevng/PHPSelenium.git
